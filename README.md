@@ -32,8 +32,8 @@ pip install -r requirements.txt
 python app.py
 ```
 ## If it doesn't run then try to download this repository and follow these steps.
-- ###Open app.py and edit line "6". 
-- ###Now select and edit __*<ins>model = joblib.load("language_detector.pkl")</ins>*__ with __*<ins>model = joblib.load(r"path of language_detector.pkl")</ins>*__.
+- Open app.py and edit line "6". 
+- Now select and edit __*<ins>model = joblib.load("language_detector.pkl")</ins>*__ with __*<ins>model = joblib.load(r"path of language_detector.pkl")</ins>*__.
 
 ## Author
 
