@@ -8,7 +8,6 @@ This project is an offline machine learning application that detects the languag
 
 - English 🇬🇧
 - Hindi 🇮🇳
-- French 🇫🇷
 - Japanese 🇯🇵
 
 ## Technologies
@@ -24,7 +23,7 @@ This project is an offline machine learning application that detects the languag
 - Offline language detection
 - Confidence score
 - Simple graphical interface
-- No internet required
+- No internet required (After setup)
 
 ## Run
 
@@ -33,9 +32,9 @@ pip install -r requirements.txt
 python app.py
 ```
 ## If it doesn't run then try to download this repository and follow these steps.
-**Step 1 :** Open app.py and edit line "6". 
-**Step 2 :** Now select and edit **model = joblib.load("language_detector.pkl")** with **model = joblib.load(r"path of language_detector.pkl")**.
+- Open app.py and edit line "6". 
+- Now select and edit __*<ins>model = joblib.load("language_detector.pkl")</ins>*__ with __*<ins>model = joblib.load(r"path of language_detector.pkl")</ins>*__.
 
 ## Author
 
-Rudresh Mishra
+__Rudresh Mishra__
